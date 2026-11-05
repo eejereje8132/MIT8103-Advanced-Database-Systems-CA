@@ -1,0 +1,69 @@
+[{
+  "_id": {
+    "$oid": "6aeac13220c59ce019327aae"
+  },
+  "order_id": 5,
+  "customer_id": 1,
+  "order_status": "Pending",
+  "order_date": "2026-11-04",
+  "delivery": {
+    "courier": "Kart Direct Courier",
+    "delivery_status": "Processing"
+  },
+  "items": [
+    {
+      "product_id": 1,
+      "quantity": 2
+    },
+    {
+      "product_id": 2,
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aeac20f20c59ce019327ab0"
+  },
+  "order_id": 6,
+  "customer_id": 2,
+  "order_status": "Processing",
+  "order_date": "2026-11-04",
+  "delivery": {
+    "courier": "Kart Direct Courier",
+    "delivery_status": "In Transit"
+  },
+  "items": [
+    {
+      "product_id": 3,
+      "quantity": 1
+    },
+    {
+      "product_id": 4,
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aeadeae20c59ce019327ab3"
+  },
+  "order_id": 6,
+  "customer_id": 2,
+  "order_status": "Processing",
+  "order_date": "2026-11-04",
+  "delivery": {
+    "courier": "Kart Direct Courier",
+    "delivery_status": "In Transit"
+  },
+  "items": [
+    {
+      "product_id": 3,
+      "quantity": 1
+    },
+    {
+      "product_id": 4,
+      "quantity": 3
+    }
+  ]
+}]
